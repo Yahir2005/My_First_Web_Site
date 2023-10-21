@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: black;
+    padding-bottom: 50px;
+}
+/*barra de navegación*/
+.menu {
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+}
+/*menu de opciones */
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+/*Se afectan todas las etiquetas a*/
+.menu a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px 10px;
+    transition: all 0.3s ease-in-out;
+}
+.menu a:hover{
+    color:rgb(87, 175, 141);
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/*Imagen de fondo*/
+.hero{
+    background-image: url('./imagenes/mapa.jpg');
+    height: 100vh;
+    background-repeat: no-repeat; 
+    background: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+z-index: -2;
+}

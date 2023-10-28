@@ -50,3 +50,23 @@ body{
     margin-bottom: 20px;
 z-index: -2;
 }
+.hero::before{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(126, 155, 83,0.8) ;
+    z-index:-1;
+}
+
+.hero h1{
+    font-size: 40px;
+    margin: -20px 0 20px;
+}
+
+.hero p{
+    font-size: 20px;
+    letter-spacing: 1px;
+}

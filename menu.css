@@ -38,7 +38,7 @@ body{
 }
 /*Imagen de fondo*/
 .hero{
-    background-image: url('./imagenes/mapa.jpg');
+    background-image: url('../Fondo.jpg');
     height: 100vh;
     background-repeat: no-repeat; 
     background: cover;
@@ -69,4 +69,21 @@ z-index: -2;
 .hero p{
     font-size: 20px;
     letter-spacing: 1px;
+}
+.button{
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+    padding: 10px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    font-size: 10px;
+}
+.button:hover{
+    background-color: grey;
+    color: red;
 }
